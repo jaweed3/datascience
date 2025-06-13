@@ -1,5 +1,11 @@
 # ** Predictions with End to End Implementation
 
+## Workflows--ML pipeline
+1. Data Ingestion
+2. Data Transformation
+3. Model Trainer
+4. Model Evaluation
+
 **Tech Stack**
 1. Scikit-Learn
 2. Astronomer
