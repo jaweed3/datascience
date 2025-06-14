@@ -1,1 +1,13 @@
-key: value
+COLUMNS:
+  pregnancies: int64
+  glucose: int64
+  blood pressure: int64
+  skin thickness: int64
+  insulin: int64
+  bmi: float64
+  diabetes pedigree function: float64
+  age: int64
+  outcome: int64
+
+TARGET:
+  name: outcome

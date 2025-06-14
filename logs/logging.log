@@ -1,1 +1,105 @@
 [2025-06-13 11:20:07,576: INFO: main: Welcome to our custom Logger data science.]
+[2025-06-14 13:41:24,780: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-14 13:41:24,785: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-14 13:41:24,787: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-14 13:41:24,788: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-14 13:41:24,788: INFO: common: Create directory at: artifacts]
+[2025-06-14 13:41:24,788: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-14 13:41:24,789: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_URL']
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion.download_file()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/data_ingestion.py", line 20, in download_file
+    url=self.config.source_URL,
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_URL'
+[2025-06-14 13:42:57,480: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-14 13:42:57,482: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-14 13:42:57,482: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-14 13:42:57,483: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-14 13:42:57,483: INFO: common: Create directory at: artifacts]
+[2025-06-14 13:42:57,483: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-14 13:42:57,484: ERROR: main: DataIngestionConfig.__init__() got an unexpected keyword argument 'source_dir']
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/config/configuration.py", line 20, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: DataIngestionConfig.__init__() got an unexpected keyword argument 'source_dir'
+[2025-06-14 13:44:19,034: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-14 13:44:19,035: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-14 13:44:19,036: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-14 13:44:19,037: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-14 13:44:19,037: INFO: common: Create directory at: artifacts]
+[2025-06-14 13:44:19,037: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-14 13:44:20,262: ERROR: main: HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion.download_file()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/data_ingestion.py", line 19, in download_file
+    filename, headers = request.urlretrieve(
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2025-06-14 13:46:06,577: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-14 13:46:06,580: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-14 13:46:06,582: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-14 13:46:06,583: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-14 13:46:06,584: INFO: common: Create directory at: artifacts]
+[2025-06-14 13:46:06,584: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-14 13:46:07,475: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with following information: 
+Content-Type: application/zip
+X-GUploader-UploadID: ABgVH89mb4O3uNah7x6wgHFXSnbnmB9XIFghQWzZJbaG_kFHUEb425TIlgauo1K_AZAWmeFw
+Expires: Sat, 14 Jun 2025 06:46:07 GMT
+Date: Sat, 14 Jun 2025 06:46:07 GMT
+Cache-Control: private, max-age=0
+Last-Modified: Wed, 05 Aug 2020 21:27:06 GMT
+ETag: "2a2f76f8f4810ce971b5bcfd685ac6e5"
+x-goog-generation: 1596662826141599
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 9128
+x-goog-hash: crc32c=gORd8w==
+x-goog-hash: md5=Ki92+PSBDOlxtbz9aFrG5Q==
+x-goog-storage-class: MULTI_REGIONAL
+Accept-Ranges: bytes
+Content-Length: 9128
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Type
+Access-Control-Expose-Headers: User-Agent
+Server: UploadServer
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Connection: close
+
+]
+[2025-06-14 13:46:07,514: INFO: main: >>>>> Stage Data Ingestion Stage Completed <<<<<]
+[2025-06-14 18:06:43,476: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-14 18:06:43,481: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-14 18:06:43,500: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-14 18:06:43,514: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-14 18:06:43,515: INFO: common: Create directory at: artifacts]
+[2025-06-14 18:06:43,516: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-14 18:06:43,516: INFO: data_ingestion: File Already exists!]
+[2025-06-14 18:06:43,562: INFO: main: >>>>> Stage Data Ingestion Stage Completed <<<<<]
+[2025-06-14 19:43:47,883: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-14 19:43:47,887: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-14 19:43:47,892: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-14 19:43:47,895: INFO: common: Create directory at: artifacts]
+[2025-06-14 19:43:47,896: INFO: common: Create directory at: artifacts/data_validation]
