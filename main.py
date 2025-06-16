@@ -51,7 +51,7 @@ except Exception as e:
 
 STAGE_NAME = "Model Evaluation"
 
-try;
+try:
     logger.info(f">>>>> Stage {STAGE_NAME} is Started <<<<<")
     model_evaluation = ModelEvaluationPipeline()
     model_evaluation.initiate_model_evaluation_pipeline()

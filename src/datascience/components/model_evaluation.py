@@ -10,6 +10,10 @@ from src.datascience.entity.config_entity import ModelEvaluationConfig
 from src.datascience.constant import *
 from src.datascience.utils.common import save_json
 
+os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/jaweed3/datascience.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "jaweed3"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "0933f50842e73c4bd68fffd52850326b068782d5"
+
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
         self.config = config
