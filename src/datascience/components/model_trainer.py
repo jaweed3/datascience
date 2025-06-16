@@ -3,7 +3,13 @@ import os
 from src.datascience import logger
 from sklearn.linear_model import ElasticNet
 from src.datascience.entity.config_entity import ModelTrainerConfig
+import mlflow
+from urllib.parse import urlparse
 import joblib
+
+os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/jaweed3/datascience.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "jaweed3"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "0933f50842e73c4bd68fffd52850326b068782d5"
 
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
@@ -21,4 +27,4 @@ class ModelTrainer:
         lr = ElasticNet(alpha=self.config.alpha, l1_ratio=self.config.l1_ratio, random_state=42)
         lr.fit(train_x, train_y)
 
-        joblib.dump(lr, os.path.join(self.config.root_dir, self.config.model_name))        
+        joblib.dump(lr, os.path.join(self.config.root_dir, self.config.model_name))
