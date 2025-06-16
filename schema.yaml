@@ -9,5 +9,5 @@ COLUMNS:
   Age: int64
   Outcome: int64
 
-TARGET:
-  name: outcome
+TARGET_COLUMN:
+  name: Outcome
