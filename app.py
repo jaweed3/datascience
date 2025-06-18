@@ -44,30 +44,28 @@ def predict_data():
         app.logger.warning("The Request must be JSON")
         return jsonify({'error': 'request must be JSON'}), 400
     
-
     try:
         data_from_react = request.get_json(force=True, silent=False) # get JSON data from body request
         app.logger.info(f"Succesfully parsed JSON data : {data_from_react}")
+
     except Exception as e:
         app.logger.info(f"Failed to parse JSON Body...")
         return jsonify({'error': f'invalid JSON format in request body: {str(e)}'}), 400
 
     if not data_from_react:
         app.logger.warning("Empty JSON data received after successfully parsing.")
-        return jsonify({'error': 'No JSON data received from request body.'})
-
-    data_from_react = None
+        return jsonify({'error': 'No JSON data received from request body.'}), 400
 
     try:
         app.logger.info(f"Starting Extraction from response...")
-        Pregnancies = float(data_from_react.get('pregnancies'))
-        Glucose = float(data_from_react.get('glucose'))
-        BloodPressure = float(data_from_react.get('bloodPressure'))
-        SkinThickness = float(data_from_react.get('skinThickness'))
-        Insulin = float(data_from_react.get('insulin'))
-        BMI = float(data_from_react.get('bmi'))
-        DiabetesPedigree = float(data_from_react.get("diabetesPedigree"))
-        Age = float(data_from_react.get('age'))
+        Pregnancies = float(data_from_react['pregnancies'])
+        Glucose = float(data_from_react['glucose'])
+        BloodPressure = float(data_from_react['bloodPressure'])
+        SkinThickness = float(data_from_react['skinThickness'])
+        Insulin = float(data_from_react['insulin'])
+        BMI = float(data_from_react['bmi'])
+        DiabetesPedigree = float(data_from_react["diabetesPedigree"])
+        Age = float(data_from_react['age'])
         
         input_data = np.array([Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin,
                 BMI, DiabetesPedigree, Age]).reshape(1, -1)
