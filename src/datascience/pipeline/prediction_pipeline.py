@@ -7,16 +7,16 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s %(message)s')
 
-class PredictionPipeline:
-    def __init__(self):
-        self.model = joblib.load(Path("artifacts/model_trainer/model.joblib"))
-
-    def predict(self, data):
-        prediction = self.model.predict(data)
-
-        return prediction
+#class PredictionPipeline:
+#    def __init__(self):
+#        self.model = joblib.load(Path("artifacts/model_trainer/model.joblib"))
+#
+#    def predict(self, data):
+#        prediction = self.model.predict(data)
+#
+#        return prediction
     
-class Prediction:
+class PredictionPipeline:
     def __init__(self):
         self.model = None
 
@@ -34,9 +34,9 @@ class Prediction:
         except Exception as e:
             logger.error(
                 f"An Unexpected error occured while loading the model from {model_path}"
-                f"the error seems is: {str(e)}"
+                f"the error seems is: {str(e)}",
                 exc_info=True
-            )
+                )
             raise Exception(f"Failed to load prediction model: {str(e)}")
         
     def predict(self, data: np.array):
