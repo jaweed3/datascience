@@ -573,3 +573,910 @@ AttributeError: 'ConfigurationManager' object has no attribute 'get_model_traine
 [2025-06-17 00:52:53,330: INFO: common: Create directory at: artifacts/model_evaluation]
 [2025-06-17 00:52:54,336: INFO: common: JSON file saved at: artifacts/model_evaluation/metrics.json]
 [2025-06-17 00:53:07,096: INFO: main: >>>>> Stage Model Evaluation is Completed <<<<<]
+[2025-06-17 08:38:41,850: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 08:39:26,036: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 08:39:38,088: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 08:39:38,370: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 08:39:38,370: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 08:39:42,890: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 08:39:42] "GET / HTTP/1.1" 200 -]
+[2025-06-17 08:39:43,281: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 08:39:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-06-17 08:55:14,551: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 08:55:14,818: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 08:55:14,818: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 08:55:19,588: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 08:55:19] "GET / HTTP/1.1" 200 -]
+[2025-06-17 08:55:45,552: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 08:55:45,913: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 08:55:45,914: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 08:55:48,735: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 08:55:48] "GET / HTTP/1.1" 200 -]
+[2025-06-17 08:56:16,962: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 08:56:16] "[33mPOST /app.py HTTP/1.1[0m" 404 -]
+[2025-06-17 08:57:14,037: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 08:57:14,288: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 08:57:14,288: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 08:57:18,114: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 08:57:18] "GET / HTTP/1.1" 200 -]
+[2025-06-17 08:57:46,670: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 08:57:46] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-17 08:58:27,046: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 08:58:41,644: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-17 08:58:41,688: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 08:58:41,729: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 08:58:41,755: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 08:58:41,759: INFO: common: Create directory at: artifacts]
+[2025-06-17 08:58:41,762: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-17 08:58:41,765: INFO: data_ingestion: File Already exists!]
+[2025-06-17 08:58:41,820: INFO: main: >>>>> Stage Data Ingestion Stage Completed <<<<<]
+[2025-06-17 08:58:41,823: INFO: main: >>>>> Stage Data Validation Stage is Started <<<<<]
+[2025-06-17 08:58:41,837: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 08:58:41,839: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 08:58:41,843: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 08:58:41,844: INFO: common: Create directory at: artifacts]
+[2025-06-17 08:58:41,844: INFO: common: Create directory at: artifacts/data_validation]
+[2025-06-17 08:58:41,882: INFO: main: >>>>> Stage Data Validation Stage is Completed]
+[2025-06-17 08:58:41,882: INFO: main: >>>>> Stage Data Transformation Stage is Started <<<<<]
+[2025-06-17 08:58:41,887: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 08:58:41,888: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 08:58:41,892: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 08:58:41,893: INFO: common: Create directory at: artifacts]
+[2025-06-17 08:58:41,893: INFO: common: Create directory at: artifacts/data_transformation]
+[2025-06-17 08:58:42,085: INFO: data_transformation: Splitted data into training and test dataset]
+[2025-06-17 08:58:42,086: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 08:58:42,086: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 08:58:42,086: INFO: main: >>>>> Stage Data Transformation Stage is Completed <<<<<]
+[2025-06-17 08:58:42,086: INFO: main: >>>>> Stage Model Trainer is Started <<<<<]
+[2025-06-17 08:58:42,098: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 08:58:42,102: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 08:58:42,108: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 08:58:42,110: INFO: common: Create directory at: artifacts]
+[2025-06-17 08:58:42,111: INFO: common: Create directory at: artifacts/model_trainer]
+[2025-06-17 08:58:42,197: INFO: main: >>>>> Stage Model Trainer is Completed <<<<<]
+[2025-06-17 08:58:42,198: INFO: main: >>>>> Stage Model Evaluation is Started <<<<<]
+[2025-06-17 08:58:42,209: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 08:58:42,211: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 08:58:42,214: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 08:58:42,214: INFO: common: Create directory at: artifacts]
+[2025-06-17 08:58:42,215: INFO: common: Create directory at: artifacts/model_evaluation]
+[2025-06-17 08:58:46,629: INFO: common: JSON file saved at: artifacts/model_evaluation/metrics.json]
+[2025-06-17 08:59:24,715: INFO: main: >>>>> Stage Model Evaluation is Completed <<<<<]
+[2025-06-17 08:59:25,572: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 08:59:25] "GET /train HTTP/1.1" 200 -]
+[2025-06-17 09:00:30,286: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:00:30] "GET /predict HTTP/1.1" 200 -]
+[2025-06-17 09:00:45,434: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:00:45] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-17 09:55:06,762: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 09:55:07,180: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 09:55:07,180: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 09:55:11,622: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:55:11] "GET / HTTP/1.1" 200 -]
+[2025-06-17 09:55:28,078: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 39, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 32, in index
+    data = np.array(data).reshape(1, 11)
+ValueError: cannot reshape array of size 8 into shape (1,11)
+[2025-06-17 09:55:28,174: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:55:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-17 09:55:48,828: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 39, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 32, in index
+    data = np.array(data).reshape(1, 8)
+ValueError: cannot reshape array of size 8 into shape (1,11)
+[2025-06-17 09:55:48,829: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:55:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-17 09:56:03,718: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 09:56:04,040: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 09:56:04,040: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 09:56:07,962: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:56:07] "GET / HTTP/1.1" 200 -]
+[2025-06-17 09:56:28,320: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 39, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 37, in index
+    return render_template('results.html', prediction=str(predict))
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: results.html
+[2025-06-17 09:56:28,361: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:56:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-17 09:57:03,659: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 09:57:03,948: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 09:57:03,948: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 09:57:09,636: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:57:09] "GET / HTTP/1.1" 200 -]
+[2025-06-17 09:57:29,421: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 39, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 23, in index
+    blood_pressure = float(request.form.get("blood_pressure"))
+ValueError: could not convert string to float: ''
+[2025-06-17 09:57:29,423: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:57:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-17 09:58:27,221: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 39, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 23, in index
+    blood_pressure = float(request.form.get("blood_pressure"))
+ValueError: could not convert string to float: ''
+[2025-06-17 09:58:27,222: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:58:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-17 09:58:37,758: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 09:58:37] "POST /predict HTTP/1.1" 200 -]
+[2025-06-17 10:21:22,045: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 10:21:22,276: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 10:21:22,276: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 10:21:25,935: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 10:21:25] "GET / HTTP/1.1" 200 -]
+[2025-06-17 10:21:47,158: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 53, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 41, in index
+    data = list(float(i for i in data))
+TypeError: float() argument must be a string or a real number, not 'generator'
+[2025-06-17 10:21:47,162: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 10:21:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-17 10:24:17,261: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 10:24:17,542: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 10:24:17,542: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 10:24:20,114: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 10:24:20] "GET / HTTP/1.1" 200 -]
+[2025-06-17 10:24:41,191: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 10:24:41] "POST /predict HTTP/1.1" 200 -]
+[2025-06-17 11:05:09,503: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:05:09,856: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 11:05:09,856: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 11:05:15,638: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:05:15] "GET / HTTP/1.1" 200 -]
+[2025-06-17 11:05:23,601: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:05:39,133: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-17 11:05:39,141: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:05:39,142: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:05:39,147: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:05:39,147: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:05:39,148: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-17 11:05:39,148: INFO: data_ingestion: File Already exists!]
+[2025-06-17 11:05:39,195: INFO: main: >>>>> Stage Data Ingestion Stage Completed <<<<<]
+[2025-06-17 11:05:39,196: INFO: main: >>>>> Stage Data Validation Stage is Started <<<<<]
+[2025-06-17 11:05:39,234: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:05:39,236: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:05:39,248: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:05:39,249: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:05:39,250: INFO: common: Create directory at: artifacts/data_validation]
+[2025-06-17 11:05:39,353: INFO: main: >>>>> Stage Data Validation Stage is Completed]
+[2025-06-17 11:05:39,354: INFO: main: >>>>> Stage Data Transformation Stage is Started <<<<<]
+[2025-06-17 11:05:39,371: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:05:39,374: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:05:39,384: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:05:39,385: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:05:39,385: INFO: common: Create directory at: artifacts/data_transformation]
+[2025-06-17 11:05:39,437: INFO: data_transformation: Splitted data into training and test dataset]
+[2025-06-17 11:05:39,437: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 11:05:39,438: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 11:05:39,438: INFO: main: >>>>> Stage Data Transformation Stage is Completed <<<<<]
+[2025-06-17 11:05:39,438: INFO: main: >>>>> Stage Model Trainer is Started <<<<<]
+[2025-06-17 11:05:39,448: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:05:39,452: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:05:39,456: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:05:39,456: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:05:39,456: INFO: common: Create directory at: artifacts/model_trainer]
+[2025-06-17 11:05:39,476: INFO: main: >>>>> Stage Model Trainer is Completed <<<<<]
+[2025-06-17 11:05:39,476: INFO: main: >>>>> Stage Model Evaluation is Started <<<<<]
+[2025-06-17 11:05:39,483: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:05:39,484: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:05:39,488: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:05:39,488: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:05:39,489: INFO: common: Create directory at: artifacts/model_evaluation]
+[2025-06-17 11:05:39,491: ERROR: main: [Errno 2] No such file or directory: 'artifacts/model_trainer/model.pkl']
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/main.py", line 57, in <module>
+    model_evaluation.initiate_model_evaluation_pipeline()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py", line 15, in initiate_model_evaluation_pipeline
+    model_evaluation.log_into_mlflow()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_evaluation.py", line 29, in log_into_mlflow
+    model = joblib.load(self.config.model_path)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 735, in load
+    with open(filename, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/model_trainer/model.pkl'
+[2025-06-17 11:05:40,194: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:05:40] "GET /train HTTP/1.1" 200 -]
+[2025-06-17 11:06:58,385: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:06:58,634: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 11:06:58,634: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 11:07:05,524: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:07:05] "GET / HTTP/1.1" 200 -]
+[2025-06-17 11:07:11,762: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:07:16,031: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-17 11:07:16,036: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:07:16,037: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:07:16,039: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:07:16,040: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:07:16,040: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-17 11:07:16,040: INFO: data_ingestion: File Already exists!]
+[2025-06-17 11:07:16,043: INFO: main: >>>>> Stage Data Ingestion Stage Completed <<<<<]
+[2025-06-17 11:07:16,043: INFO: main: >>>>> Stage Data Validation Stage is Started <<<<<]
+[2025-06-17 11:07:16,048: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:07:16,049: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:07:16,051: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:07:16,052: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:07:16,052: INFO: common: Create directory at: artifacts/data_validation]
+[2025-06-17 11:07:16,450: INFO: main: >>>>> Stage Data Validation Stage is Completed]
+[2025-06-17 11:07:16,450: INFO: main: >>>>> Stage Data Transformation Stage is Started <<<<<]
+[2025-06-17 11:07:16,458: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:07:16,460: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:07:16,467: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:07:16,467: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:07:16,467: INFO: common: Create directory at: artifacts/data_transformation]
+[2025-06-17 11:07:16,485: INFO: data_transformation: Splitted data into training and test dataset]
+[2025-06-17 11:07:16,485: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 11:07:16,485: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 11:07:16,486: INFO: main: >>>>> Stage Data Transformation Stage is Completed <<<<<]
+[2025-06-17 11:07:16,486: INFO: main: >>>>> Stage Model Trainer is Started <<<<<]
+[2025-06-17 11:07:16,493: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:07:16,494: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:07:16,498: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:07:16,499: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:07:16,499: INFO: common: Create directory at: artifacts/model_trainer]
+[2025-06-17 11:07:16,522: INFO: main: >>>>> Stage Model Trainer is Completed <<<<<]
+[2025-06-17 11:07:16,522: INFO: main: >>>>> Stage Model Evaluation is Started <<<<<]
+[2025-06-17 11:07:16,529: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:07:16,531: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:07:16,535: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:07:16,536: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:07:16,536: INFO: common: Create directory at: artifacts/model_evaluation]
+[2025-06-17 11:07:16,540: ERROR: main: [Errno 2] No such file or directory: 'artifacts/model_trainer/model.pkl']
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/main.py", line 57, in <module>
+    model_evaluation.initiate_model_evaluation_pipeline()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py", line 15, in initiate_model_evaluation_pipeline
+    model_evaluation.log_into_mlflow()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_evaluation.py", line 29, in log_into_mlflow
+    model = joblib.load(self.config.model_path)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 735, in load
+    with open(filename, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/model_trainer/model.pkl'
+[2025-06-17 11:07:17,054: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:07:17] "GET /train HTTP/1.1" 200 -]
+[2025-06-17 11:07:54,157: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:07:54,409: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 11:07:54,409: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 11:07:58,559: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:07:58] "GET / HTTP/1.1" 200 -]
+[2025-06-17 11:08:05,972: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:08:09,893: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-17 11:08:09,897: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:08:09,899: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:08:09,903: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:08:09,903: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:08:09,904: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-17 11:08:09,904: INFO: data_ingestion: File Already exists!]
+[2025-06-17 11:08:09,907: INFO: main: >>>>> Stage Data Ingestion Stage Completed <<<<<]
+[2025-06-17 11:08:09,907: INFO: main: >>>>> Stage Data Validation Stage is Started <<<<<]
+[2025-06-17 11:08:09,912: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:08:09,914: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:08:09,917: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:08:09,917: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:08:09,918: INFO: common: Create directory at: artifacts/data_validation]
+[2025-06-17 11:08:09,929: INFO: main: >>>>> Stage Data Validation Stage is Completed]
+[2025-06-17 11:08:09,930: INFO: main: >>>>> Stage Data Transformation Stage is Started <<<<<]
+[2025-06-17 11:08:09,938: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:08:09,940: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:08:09,944: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:08:09,944: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:08:09,945: INFO: common: Create directory at: artifacts/data_transformation]
+[2025-06-17 11:08:09,962: INFO: data_transformation: Splitted data into training and test dataset]
+[2025-06-17 11:08:09,962: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 11:08:09,962: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 11:08:09,962: INFO: main: >>>>> Stage Data Transformation Stage is Completed <<<<<]
+[2025-06-17 11:08:09,962: INFO: main: >>>>> Stage Model Trainer is Started <<<<<]
+[2025-06-17 11:08:09,969: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:08:09,971: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:08:09,975: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:08:09,976: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:08:09,976: INFO: common: Create directory at: artifacts/model_trainer]
+[2025-06-17 11:08:10,004: INFO: main: >>>>> Stage Model Trainer is Completed <<<<<]
+[2025-06-17 11:08:10,005: INFO: main: >>>>> Stage Model Evaluation is Started <<<<<]
+[2025-06-17 11:08:10,012: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:08:10,015: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:08:10,022: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:08:10,024: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:08:10,025: INFO: common: Create directory at: artifacts/model_evaluation]
+[2025-06-17 11:08:14,718: INFO: common: JSON file saved at: artifacts/model_evaluation/metrics.json]
+[2025-06-17 11:08:53,210: INFO: main: >>>>> Stage Model Evaluation is Completed <<<<<]
+[2025-06-17 11:08:54,136: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:08:54] "GET /train HTTP/1.1" 200 -]
+[2025-06-17 11:09:02,691: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:09:02] "GET / HTTP/1.1" 200 -]
+[2025-06-17 11:09:20,782: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 65, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 28, in index
+    age = request.form.get("age").strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+[2025-06-17 11:09:20,786: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:09:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-17 11:13:02,254: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:13:02,956: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 11:13:02,957: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 11:13:06,642: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:13:06] "GET / HTTP/1.1" 200 -]
+[2025-06-17 11:13:16,374: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 40, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 21, in index
+    pregnancies = float(request.form.get("pregnancies", ""))
+ValueError: could not convert string to float: ''
+[2025-06-17 11:13:16,377: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:13:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-17 11:13:39,714: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:13:39,966: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 11:13:39,967: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 11:13:43,558: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:13:43] "GET / HTTP/1.1" 200 -]
+[2025-06-17 11:13:54,754: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 40, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 21, in index
+    pregnancies = float(request.form.get("pregnancies", ""))
+ValueError: could not convert string to float: ''
+[2025-06-17 11:13:54,758: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:13:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-17 11:14:43,021: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:14:43,323: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 11:14:43,323: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 11:14:45,779: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:14:45] "GET / HTTP/1.1" 200 -]
+[2025-06-17 11:14:55,587: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 40, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 21, in index
+    pregnancies = float(request.form.get("pregnancies"))
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+[2025-06-17 11:14:55,591: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:14:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-17 11:25:09,172: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:25:09,546: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 11:25:09,546: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 11:25:14,950: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:25:15,219: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 11:25:15,219: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 11:25:18,547: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:25:18] "GET / HTTP/1.1" 200 -]
+[2025-06-17 11:25:30,743: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:25:30] "POST /predict HTTP/1.1" 200 -]
+[2025-06-17 11:33:34,921: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:33:35,385: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 11:33:35,385: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 11:33:39,363: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:33:39] "GET / HTTP/1.1" 200 -]
+[2025-06-17 11:33:46,777: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:33:50,630: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-17 11:33:50,636: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:33:50,637: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:33:50,640: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:33:50,641: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:33:50,641: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-17 11:33:50,641: INFO: data_ingestion: File Already exists!]
+[2025-06-17 11:33:50,643: INFO: main: >>>>> Stage Data Ingestion Stage Completed <<<<<]
+[2025-06-17 11:33:50,643: INFO: main: >>>>> Stage Data Validation Stage is Started <<<<<]
+[2025-06-17 11:33:50,650: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:33:50,652: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:33:50,655: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:33:50,655: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:33:50,656: INFO: common: Create directory at: artifacts/data_validation]
+[2025-06-17 11:33:50,667: INFO: main: >>>>> Stage Data Validation Stage is Completed]
+[2025-06-17 11:33:50,667: INFO: main: >>>>> Stage Data Transformation Stage is Started <<<<<]
+[2025-06-17 11:33:50,677: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:33:50,679: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:33:50,682: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:33:50,683: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:33:50,683: INFO: common: Create directory at: artifacts/data_transformation]
+[2025-06-17 11:33:50,700: INFO: data_transformation: Splitted data into training and test dataset]
+[2025-06-17 11:33:50,700: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 11:33:50,700: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 11:33:50,700: INFO: main: >>>>> Stage Data Transformation Stage is Completed <<<<<]
+[2025-06-17 11:33:50,701: INFO: main: >>>>> Stage Model Trainer is Started <<<<<]
+[2025-06-17 11:33:50,708: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:33:50,710: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:33:50,713: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:33:50,714: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:33:50,714: INFO: common: Create directory at: artifacts/model_trainer]
+[2025-06-17 11:33:50,765: ERROR: main: "['Outcome'] not found in axis"]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/main.py", line 46, in <module>
+    model_trainer.initiate_model_training_pipeline()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_trainer_pipeline.py", line 15, in initiate_model_training_pipeline
+    model_trainer.train()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_trainer.py", line 22, in train
+    train_x = train_data.drop([self.config.target_column], axis=1)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pandas/core/frame.py", line 5581, in drop
+    return super().drop(
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pandas/core/generic.py", line 4788, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pandas/core/generic.py", line 4830, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 7070, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['Outcome'] not found in axis"
+[2025-06-17 11:33:51,401: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:33:51] "GET /train HTTP/1.1" 200 -]
+[2025-06-17 11:34:22,923: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:34:23,286: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-17 11:34:23,286: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-17 11:34:28,684: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-17 11:34:32,428: INFO: main: >>>>> Stage Data Ingestion Stage Started <<<<<]
+[2025-06-17 11:34:32,435: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:34:32,437: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:34:32,440: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:34:32,441: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:34:32,441: INFO: common: Create directory at: artifacts/data_ingestion]
+[2025-06-17 11:34:32,441: INFO: data_ingestion: File Already exists!]
+[2025-06-17 11:34:32,443: INFO: main: >>>>> Stage Data Ingestion Stage Completed <<<<<]
+[2025-06-17 11:34:32,443: INFO: main: >>>>> Stage Data Validation Stage is Started <<<<<]
+[2025-06-17 11:34:32,450: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:34:32,452: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:34:32,455: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:34:32,456: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:34:32,456: INFO: common: Create directory at: artifacts/data_validation]
+[2025-06-17 11:34:32,636: INFO: main: >>>>> Stage Data Validation Stage is Completed]
+[2025-06-17 11:34:32,638: INFO: main: >>>>> Stage Data Transformation Stage is Started <<<<<]
+[2025-06-17 11:34:32,652: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:34:32,656: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:34:32,660: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:34:32,661: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:34:32,661: INFO: common: Create directory at: artifacts/data_transformation]
+[2025-06-17 11:34:32,692: INFO: data_transformation: Splitted data into training and test dataset]
+[2025-06-17 11:34:32,693: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 11:34:32,693: INFO: data_transformation: Training dataset shape : (576, 9)]
+[2025-06-17 11:34:32,694: INFO: main: >>>>> Stage Data Transformation Stage is Completed <<<<<]
+[2025-06-17 11:34:32,694: INFO: main: >>>>> Stage Model Trainer is Started <<<<<]
+[2025-06-17 11:34:32,703: INFO: common: yaml file: config/config.yaml loaded successfully...]
+[2025-06-17 11:34:32,705: INFO: common: yaml file: params.yaml loaded successfully...]
+[2025-06-17 11:34:32,709: INFO: common: yaml file: schema.yaml loaded successfully...]
+[2025-06-17 11:34:32,709: INFO: common: Create directory at: artifacts]
+[2025-06-17 11:34:32,710: INFO: common: Create directory at: artifacts/model_trainer]
+[2025-06-17 11:34:32,719: ERROR: main: "['Outcome'] not found in axis"]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/main.py", line 46, in <module>
+    model_trainer.initiate_model_training_pipeline()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_trainer_pipeline.py", line 15, in initiate_model_training_pipeline
+    model_trainer.train()
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_trainer.py", line 22, in train
+    train_x = train_data.drop([self.config.target_column], axis=1)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pandas/core/frame.py", line 5581, in drop
+    return super().drop(
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pandas/core/generic.py", line 4788, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pandas/core/generic.py", line 4830, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 7070, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['Outcome'] not found in axis"
+[2025-06-17 11:34:33,226: INFO: _internal: 127.0.0.1 - - [17/Jun/2025 11:34:33] "GET /train HTTP/1.1" 200 -]
+[2025-06-18 09:34:47,927: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 09:34:49,645: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-18 09:34:49,646: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-18 09:35:02,859: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 09:35:02] "GET / HTTP/1.1" 200 -]
+[2025-06-18 09:35:03,208: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 09:35:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-06-18 09:44:11,961: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 09:44:11] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 09:44:34,152: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 09:44:34] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 09:44:45,411: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 09:44:45] "GET /predict HTTP/1.1" 200 -]
+[2025-06-18 09:45:25,425: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 09:45:25,731: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-18 09:45:25,732: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-18 09:45:29,047: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 09:45:29] "GET / HTTP/1.1" 200 -]
+[2025-06-18 09:46:01,428: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 09:46:01] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 09:46:01,449: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 42, in index
+    raise e
+  File "/home/fatih-jawwad/project-jawed/MLops/datascience/app.py", line 23, in index
+    Pregnancies = float(request.form.get("pregnancies"))
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+[2025-06-18 09:46:01,456: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 09:46:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-06-18 09:49:55,206: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 09:49:55,511: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-18 09:49:55,511: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-18 09:50:04,547: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 09:50:04] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 09:50:04,570: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 09:50:04] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-18 10:10:07,033: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 10:10:07,440: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-18 10:10:07,441: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-18 10:10:17,050: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 10:10:17] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 10:10:17,077: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 10:10:17] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-18 10:19:02,684: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 10:19:02] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 10:19:02,702: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 10:19:02] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-18 13:10:48,747: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 13:10:48] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 13:10:48,884: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 13:10:48] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-18 16:06:07,946: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 16:06:07] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 16:06:07,955: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 16:06:07] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-18 16:32:02,514: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:32:04,300: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-18 16:32:04,301: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-18 16:32:04,383: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:32:05,444: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:32:05,727: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:32:05,727: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:32:33,079: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 16:32:33] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 16:32:33,090: INFO: app: Starting Prediction prosess]
+[2025-06-18 16:32:33,091: INFO: app: Succesfully parsed JSON data : {'pregnancies': '11', 'glucose': '', 'bloodPressure': '1', 'skinThickness': '1', 'insulin': '1', 'bmi': '1', 'diabetesPedigree': '1', 'age': '1'}]
+[2025-06-18 16:32:33,091: INFO: app: Starting Extraction from response...]
+[2025-06-18 16:32:33,092: ERROR: app: Invalid data type for fields :'NoneType' object has no attribute 'get']
+[2025-06-18 16:32:33,094: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 16:32:33] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-18 16:35:27,262: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:35:27,590: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-18 16:35:27,590: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-18 16:35:27,600: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:35:28,314: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:35:28,563: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:35:28,563: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:35:31,325: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 16:35:31] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 16:35:31,345: INFO: app: Starting Prediction prosess]
+[2025-06-18 16:35:31,346: INFO: app: Succesfully parsed JSON data : {'pregnancies': '1', 'glucose': '1', 'bloodPressure': '11', 'skinThickness': '1', 'insulin': '1', 'bmi': '1', 'diabetesPedigree': '1', 'age': '1'}]
+[2025-06-18 16:35:31,347: INFO: app: Starting Extraction from response...]
+[2025-06-18 16:35:31,348: ERROR: app: Invalid data type for fields :'NoneType' object has no attribute 'get']
+[2025-06-18 16:35:31,349: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 16:35:31] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-18 16:36:38,770: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:36:39,165: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.116:8080]
+[2025-06-18 16:36:39,166: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-06-18 16:36:39,177: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:36:39,912: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:36:40,159: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:36:40,159: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:36:45,148: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 16:36:45] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 16:36:45,160: INFO: app: Starting Prediction prosess]
+[2025-06-18 16:36:45,160: INFO: app: Succesfully parsed JSON data : {'pregnancies': '1', 'glucose': '1', 'bloodPressure': '11', 'skinThickness': '1', 'insulin': '1', 'bmi': '1', 'diabetesPedigree': '1', 'age': '1'}]
+[2025-06-18 16:36:45,160: INFO: app: Starting Extraction from response...]
+[2025-06-18 16:36:45,161: ERROR: app: Invalid data type for fields :'NoneType' object has no attribute 'get']
+[2025-06-18 16:36:45,162: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 16:36:45] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-18 16:37:52,694: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/prediction_pipeline.py', reloading]
+[2025-06-18 16:37:53,257: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:37:54,012: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:37:54,271: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:37:54,272: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:38:26,939: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_trainer.py', reloading]
+[2025-06-18 16:38:27,921: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:38:28,634: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:38:28,885: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:38:28,886: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:38:37,544: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_trainer.py', reloading]
+[2025-06-18 16:38:38,404: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:38:39,207: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:38:39,476: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:38:39,476: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:38:41,067: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_trainer.py', reloading]
+[2025-06-18 16:38:41,335: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:38:41,995: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:38:42,231: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:38:42,232: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:38:48,669: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_trainer.py', reloading]
+[2025-06-18 16:38:48,950: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:38:49,776: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:38:50,117: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:38:50,117: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:39:00,878: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_trainer.py', reloading]
+[2025-06-18 16:39:01,742: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:39:02,441: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:39:02,679: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:39:02,680: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:39:23,099: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_evaluation.py', reloading]
+[2025-06-18 16:39:23,247: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/parse.py', reloading]
+[2025-06-18 16:39:23,356: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/constant/__init__.py', reloading]
+[2025-06-18 16:39:23,576: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:39:24,403: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:39:24,652: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:39:24,652: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:39:30,301: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/entity/config_entity.py', reloading]
+[2025-06-18 16:39:31,469: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:39:32,159: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:39:32,422: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:39:32,423: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:40:55,466: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/mlflow/__init__.py', reloading]
+[2025-06-18 16:40:55,553: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/mlflow/sklearn/__init__.py', reloading]
+[2025-06-18 16:40:56,526: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:40:57,162: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:40:57,402: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:40:57,402: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:41:12,144: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py', reloading]
+[2025-06-18 16:41:12,152: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/__init__.py', reloading]
+[2025-06-18 16:41:12,251: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_trainer_pipeline.py', reloading]
+[2025-06-18 16:41:12,280: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/data_transformation_pipeline.py', reloading]
+[2025-06-18 16:41:12,313: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/data_validation_pipeline.py', reloading]
+[2025-06-18 16:41:12,335: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/data_ingestion_pipeline.py', reloading]
+[2025-06-18 16:41:12,359: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/data_ingestion.py', reloading]
+[2025-06-18 16:41:12,387: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/config/configuration.py', reloading]
+[2025-06-18 16:41:12,584: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/data_validation.py', reloading]
+[2025-06-18 16:41:12,615: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/data_transformation.py', reloading]
+[2025-06-18 16:41:12,765: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/numpy/typing/__init__.py', reloading]
+[2025-06-18 16:41:13,007: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:41:13,835: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:41:14,082: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:41:14,082: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:41:15,400: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py', reloading]
+[2025-06-18 16:41:15,401: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py', reloading]
+[2025-06-18 16:41:15,646: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:41:16,544: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:41:16,820: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:41:16,820: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:41:21,443: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/mlflow/tracking/fluent.py', reloading]
+[2025-06-18 16:41:21,619: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/mlflow/utils/async_logging/run_operations.py', reloading]
+[2025-06-18 16:41:21,621: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/mlflow/entities/__init__.py', reloading]
+[2025-06-18 16:41:21,667: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/mlflow/entities/run_status.py', reloading]
+[2025-06-18 16:41:21,673: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/mlflow/utils/thread_utils.py', reloading]
+[2025-06-18 16:41:21,682: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/mlflow/protos/service_pb2.py', reloading]
+[2025-06-18 16:41:22,481: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:41:23,245: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:41:23,520: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:41:23,520: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:41:28,268: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/cacheprovider.py', reloading]
+[2025-06-18 16:41:28,376: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/fixtures.py', reloading]
+[2025-06-18 16:41:28,521: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/config/__init__.py', reloading]
+[2025-06-18 16:41:28,616: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/capture.py', reloading]
+[2025-06-18 16:41:28,700: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/doctest.py', reloading]
+[2025-06-18 16:41:28,762: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/compat.py', reloading]
+[2025-06-18 16:41:28,781: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/junitxml.py', reloading]
+[2025-06-18 16:41:28,821: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/legacypath.py', reloading]
+[2025-06-18 16:41:28,851: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/logging.py', reloading]
+[2025-06-18 16:41:28,892: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/monkeypatch.py', reloading]
+[2025-06-18 16:41:28,906: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/recwarn.py', reloading]
+[2025-06-18 16:41:28,924: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/tmpdir.py', reloading]
+[2025-06-18 16:41:28,959: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pytest_cov/__init__.py', reloading]
+[2025-06-18 16:41:28,976: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pytest/__init__.py', reloading]
+[2025-06-18 16:41:28,982: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pytest_cov/compat.py', reloading]
+[2025-06-18 16:41:28,986: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pytest_cov/embed.py', reloading]
+[2025-06-18 16:41:28,990: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/coverage/__init__.py', reloading]
+[2025-06-18 16:41:29,006: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/pytest_cov/engine.py', reloading]
+[2025-06-18 16:41:29,077: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/coverage/data.py', reloading]
+[2025-06-18 16:41:29,084: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/coverage/sqldata.py', reloading]
+[2025-06-18 16:41:29,349: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:41:30,027: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:41:30,276: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:41:30,276: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:41:36,581: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/utils/common.py', reloading]
+[2025-06-18 16:41:36,624: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/ensure/__init__.py', reloading]
+[2025-06-18 16:41:36,636: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/ensure/main.py', reloading]
+[2025-06-18 16:41:36,906: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:41:37,595: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:41:37,844: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:41:37,844: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 16:42:03,262: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/sklearn/metrics/_regression.py', reloading]
+[2025-06-18 16:42:03,537: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 16:42:04,203: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 16:42:04,539: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 16:42:04,540: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 20:25:59,022: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 20:25:59] "OPTIONS /predict HTTP/1.1" 200 -]
+[2025-06-18 20:25:59,066: INFO: app: Starting Prediction prosess]
+[2025-06-18 20:25:59,070: INFO: app: Succesfully parsed JSON data : {'pregnancies': '1', 'glucose': '1', 'bloodPressure': '1', 'skinThickness': '1', 'insulin': '1', 'bmi': '1', 'diabetesPedigree': '1', 'age': '1'}]
+[2025-06-18 20:25:59,072: INFO: app: Starting Extraction from response...]
+[2025-06-18 20:25:59,077: ERROR: app: Invalid data type for fields :'NoneType' object has no attribute 'get']
+[2025-06-18 20:25:59,092: INFO: _internal: 127.0.0.1 - - [18/Jun/2025 20:25:59] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-06-18 20:26:53,743: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py', reloading]
+[2025-06-18 20:26:53,776: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py', reloading]
+[2025-06-18 20:26:53,781: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py', reloading]
+[2025-06-18 20:26:54,345: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py', reloading]
+[2025-06-18 20:26:54,632: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 20:26:55,628: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 20:26:55,967: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 20:26:55,968: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 20:26:58,930: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_evaluation.py', reloading]
+[2025-06-18 20:26:58,939: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/components/model_evaluation.py', reloading]
+[2025-06-18 20:26:59,498: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 20:27:00,489: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 20:27:00,834: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 20:27:00,834: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 20:27:03,269: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/cacheprovider.py', reloading]
+[2025-06-18 20:27:03,307: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/fixtures.py', reloading]
+[2025-06-18 20:27:03,434: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/capture.py', reloading]
+[2025-06-18 20:27:03,478: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/doctest.py', reloading]
+[2025-06-18 20:27:03,507: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/compat.py', reloading]
+[2025-06-18 20:27:03,508: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/coverage/results.py', reloading]
+[2025-06-18 20:27:03,509: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/coverage/misc.py', reloading]
+[2025-06-18 20:27:04,438: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 20:27:05,376: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 20:27:05,720: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 20:27:05,720: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 20:27:44,098: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/parse.py', reloading]
+[2025-06-18 20:27:44,421: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/parse.py', reloading]
+[2025-06-18 20:27:44,508: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/parse.py', reloading]
+[2025-06-18 20:27:44,530: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/urllib/parse.py', reloading]
+[2025-06-18 20:27:44,934: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 20:27:46,083: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 20:27:46,436: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 20:27:46,438: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 20:28:14,754: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py', reloading]
+[2025-06-18 20:28:14,756: INFO: _internal:  * Detected change in '/home/fatih-jawwad/project-jawed/MLops/datascience/src/datascience/pipeline/model_evaluation_pipeline.py', reloading]
+[2025-06-18 20:28:16,002: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 20:28:16,841: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 20:28:17,151: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 20:28:17,151: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 20:30:16,460: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/pathlib.py', reloading]
+[2025-06-18 20:30:17,519: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 20:30:18,715: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 20:30:19,049: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 20:30:19,049: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 20:31:12,078: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/langchain/__init__.py', reloading]
+[2025-06-18 20:31:12,435: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 20:31:13,470: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 20:31:13,820: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 20:31:13,821: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 20:32:37,458: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/joblib/_cloudpickle_wrapper.py', reloading]
+[2025-06-18 20:32:37,552: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/joblib/_parallel_backends.py', reloading]
+[2025-06-18 20:32:37,637: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/joblib/_store_backends.py', reloading]
+[2025-06-18 20:32:37,691: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/joblib/hashing.py', reloading]
+[2025-06-18 20:32:37,732: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/joblib/logger.py', reloading]
+[2025-06-18 20:32:37,741: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/joblib/memory.py', reloading]
+[2025-06-18 20:32:37,835: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/joblib/parallel.py', reloading]
+[2025-06-18 20:32:38,230: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 20:32:39,358: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 20:32:39,790: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 20:32:39,791: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 20:36:11,137: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/cacheprovider.py', reloading]
+[2025-06-18 20:36:11,236: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/fixtures.py', reloading]
+[2025-06-18 20:36:11,364: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/config/__init__.py', reloading]
+[2025-06-18 20:36:11,520: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/capture.py', reloading]
+[2025-06-18 20:36:11,634: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/doctest.py', reloading]
+[2025-06-18 20:36:11,706: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/compat.py', reloading]
+[2025-06-18 20:36:11,738: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/junitxml.py', reloading]
+[2025-06-18 20:36:11,805: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/_pytest/legacypath.py', reloading]
+[2025-06-18 20:36:12,105: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 20:36:13,139: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 20:36:13,565: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 20:36:13,566: INFO: _internal:  * Debugger PIN: 322-503-669]
+[2025-06-18 20:36:17,858: INFO: _internal:  * Detected change in '/home/fatih-jawwad/miniconda3/envs/mlenv/lib/python3.10/site-packages/numpy/random/__init__.py', reloading]
+[2025-06-18 20:36:18,761: INFO: _internal:  * Restarting with watchdog (inotify)]
+[2025-06-18 20:36:19,861: INFO: utils: NumExpr defaulting to 4 threads.]
+[2025-06-18 20:36:20,229: WARNING: _internal:  * Debugger is active!]
+[2025-06-18 20:36:20,230: INFO: _internal:  * Debugger PIN: 322-503-669]
