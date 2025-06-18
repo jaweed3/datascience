@@ -2,10 +2,22 @@ from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 import os
 import numpy as np
+import logging
 from src.datascience.pipeline.prediction_pipeline import PredictionPipeline
 
 app = Flask(__name__)
 CORS(app=app)
+
+# Logging Configuration
+app.logger.setLevel(logging.INFO)
+handler = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+
+if not app.logger.handlers:
+    app.logger.addHandler(handler)
+
+logging.getLogger('src.datascience.pipeline.prediction_pipeline').setLevel(logging.INFO)
 
 @app.route('/', methods=['GET']) # Route to display homepage
 def homepage():
@@ -23,7 +35,7 @@ def training():
         app.logger.info("Error Occured when training....")
         return jsonify({"error": f"Training Failed :{str(e)}"}), 500
 
-@app.route('/predict', methods=['POST', 'GET']) # Route from web UI
+@app.route('/predict', methods=['POST']) # Route from web UI
 def predict_data():
     """Route for receiving data from react and doing prediction"""
     app.logger.info("Starting Prediction prosess")
